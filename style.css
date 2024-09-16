@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.numeros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-template-rows: repeat(2, auto);
+   
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.vermelho {
+    color: red;
+}
+
+.verde {
+    color: greenyellow;
+}
